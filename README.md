@@ -49,8 +49,23 @@ How do annual members and casual riders use Cyclistic bikes differently ?
 
 ## Analysis and Viz
 
-### Pie Chart
-![piechart](pie_chart.PNG "Pie Chart")
+### Pie Chart : 
+![piechart](viz/pie_chart.PNG)
 
-### test
-![piechart2](capture.PNG "Pie Chart 2")
+### Line Chart :
+![line_chart_1](viz/line_chart_1.PNG)
+
+### Line Chart :
+![line_chart_2](viz/line_chart_2.PNG)
+
+### Bar Graph :
+![bars](viz/bars_dist_duration.PNG)
+
+### Bar Graph :
+![bar_hour](viz/bar_hour.PNG)
+
+### Bar Graph :
+![bar_season](viz/bar_season.PNG)
+
+### Top 20 stations : 
+![top20](viz/top20.PNG)
