@@ -50,6 +50,4 @@ How do annual members and casual riders use Cyclistic bikes differently ?
 ## Analysis and Viz
 
 ### Pie Chart
-
 ![piechart](pie_chart.png "Pie Chart")
-
