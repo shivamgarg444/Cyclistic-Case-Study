@@ -28,14 +28,15 @@ How do annual members and casual riders use Cyclistic bikes differently ?
 
 ## Data
 
-* **Data source** : [Public data](https://divvy-tripdata.s3.amazonaws.com/index.html) from Motivate International Inc. (Divvy Bicycle Sharing Service from Chicago) under this [license](https://www.divvybikes.com/data-license-agreement).
-* Cyclistic’s historical trip data (2013 onwards) available in .csv format. 
+* **Data source** : Public data from Motivate International Inc. (Divvy Bicycle Sharing Service from Chicago) under this [license](https://www.divvybikes.com/data-license-agreement).
+* [Cyclistic’s historical trip data](https://divvy-tripdata.s3.amazonaws.com/index.html) (2013 onwards) available in .csv format. 
 * **Our date range** : May 2020 to April 2021 (608MB data)
 * The dataset has individual ride records consisting of ride start-end date & time, station information, bike type, rider type (casual/member). Rider's personally identifiable information has already been omitted.
+* Data uploaded to Google Cloud Storage(GCS) for importing large files.
 
 ## Processing and Cleaning
 
-* Data imported into **BigQuery** for manipulation and analysis using SQL.
+* Data imported from GCS into **BigQuery** for manipulation and analysis using SQL.
 * Visualizations will be developed in **Google Data Studio**.
 * Datatypes made consistent and then consolidated into one view using [this query](https://github.com/shivamgarg444/Cyclistic-Case-Study/blob/main/uncleaned_compile.sql).
 * To assist in analysis, 4 new columns were added (start point location, end point location, ride start day name and ride duration in seconds).
@@ -44,7 +45,7 @@ How do annual members and casual riders use Cyclistic bikes differently ?
   * Missing start and end station names found using [this query](station_check.sql).
   * Other columns checked using [this query](columns_check.sql).
   * Negative and zero ride duration values found using [this query](duration_check.sql).
-* Following the cleaning and consolidating data in one table, 3,476,354 rows were returned for proceeding to analysis. All this can be achieved using [this single query](single_query.sql).
+* Following the cleaning and consolidating data in one table, 3,476,354 rows were returned for proceeding to analysis. All of this was achieved using [this single master query](single_query.sql).
 
 ## Analysis and Viz
 
