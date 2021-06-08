@@ -2,7 +2,7 @@
 ## Table of Contents
 
 1. [Introduction](README.md#introduction)
-2. [Business Task](README.md#business_task)
+2. [Business Task](README.md#business-task)
 3. [Data]()
 4. [Processing and Cleaning]()
 5. [Analysis and Viz]()
