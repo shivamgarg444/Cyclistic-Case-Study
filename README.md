@@ -50,26 +50,29 @@ How do annual members and casual riders use Cyclistic bikes differently ?
 The final dataset containing trip data of roughly 3.4 million ride records was analyzed. 
 Visualizations were made to observe differential trends between the usage by casual riders and annual members.  
 
-> ### Pie Chart : 
+
+> ### Total ride share
 ![piechart](viz/pie_chart.PNG)
 #### **Insights**
-*
-*
-*
+* 58.6% of total rides (3.4M) were taken by annual members.
+* 41.4% of total rides were taken by casual riders.
+* Annual members form the majority of business for the company and maximizing on this number should be the focus in the long run.
 
-> ### Line Chart :
+
+> ### Weekly distribution of number of rides
 ![line_chart_1](viz/line_chart_1.PNG)
 #### **Insights**
-*
+* Clearly, the rides taken by casual riders peak throughout Friday, Saturday and Sunday as compared to that of annual members which remains relatively flat. 
+* About 50% less casual riders use the rentals during weekdays as compared to weekends.  
+* This indicates that casual riders use the bike rentals for leisure purposes while annual members use it for commuting. 
+
+> ### Weekly distribution of average ride duration
+![line_chart_2](viz/line_chart_2.PNG)
+#### **Insights**
+* 
 *
 *
 
-> ### Line Chart :
-![line_chart_2](viz/line_chart_2.PNG)
-#### **Insights**
-*
-*
-*
 
 > ### Bar Graph :
 ![bars](viz/bars_dist_duration.PNG)
@@ -78,12 +81,14 @@ Visualizations were made to observe differential trends between the usage by cas
 *
 *
 
+
 > ### Bar Graph :
 ![bar_hour](viz/bar_hour.PNG)
 #### **Insights**
 *
 *
 *
+
 
 > ### Bar Graph :
 ![bar_season](viz/bar_season.PNG)
@@ -92,11 +97,6 @@ Visualizations were made to observe differential trends between the usage by cas
 *
 *
 
-> ### Top 20 Stations
-![top20](viz/top20.PNG)
-#### **Insights**
-*
-*
-*
+
 
 ## Conclusion
