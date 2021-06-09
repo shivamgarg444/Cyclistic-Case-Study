@@ -9,8 +9,6 @@
 6. [Report](README.md#report)
 7. [Conclusions](README.md#conclusions)
 
-
-
 ## Introduction
 
 The project is a part of **Google Data Analytics Certification course capstone**. The scenario involves analysis of the trip data of Cyclistic bike share company.
@@ -54,21 +52,51 @@ Visualizations were made to observe differential trends between the usage by cas
 
 > ### Pie Chart : 
 ![piechart](viz/pie_chart.PNG)
+#### **Insights**
+*
+*
+*
 
 > ### Line Chart :
 ![line_chart_1](viz/line_chart_1.PNG)
+#### **Insights**
+*
+*
+*
 
 > ### Line Chart :
 ![line_chart_2](viz/line_chart_2.PNG)
+#### **Insights**
+*
+*
+*
 
 > ### Bar Graph :
 ![bars](viz/bars_dist_duration.PNG)
+#### **Insights**
+*
+*
+*
 
 > ### Bar Graph :
 ![bar_hour](viz/bar_hour.PNG)
+#### **Insights**
+*
+*
+*
 
 > ### Bar Graph :
 ![bar_season](viz/bar_season.PNG)
+#### **Insights**
+*
+*
+*
 
-> ### Top 20 stations : 
+> ### Top 20 Stations
 ![top20](viz/top20.PNG)
+#### **Insights**
+*
+*
+*
+
+## Conclusion
