@@ -85,16 +85,16 @@ Visualizations were developed in Google Data Studio to observe differential tren
 ### Hourly distribution of number of rides
 ![bar_hour](viz/bar_hour.PNG)
 #### **Insights**
-* The proportion of casual riders increases in the non-commuting hours ie in forenoon hours and after 8pm from __0.25x__ of total rides to __1.5x__ of total rides.
-* Annual members take the major chunk of the rides during peak-travel hours in the morning and evening by upto __4x__ of casual members. 
+* The proportion of casual riders increases in the non-commuting hours i.e. in forenoon hours and after 8pm from __18%__ of total riders to __50%__ of total riders.
+* Annual members take the major chunk of the rides during peak-travel hours in the morning and evening to upto __82%__ of total riders. 
 * Again, this indicates that casual riders use the bike rentals for leisure purposes while annual members use it for commuting.  
 
 
 ### Monthly distribution of number of rides - Seasonality 
 ![bar_season](viz/bar_season.PNG)
 #### **Insights**
-* The proportion of casual riders __falls__ drastically during winter months(Dec-Feb) to only about __1/4th__ of total rides.
-* The proportion of casual riders goes __maximum__ in the months of June, July, August and September to upto __half__ of total rides.  
+* The proportion of casual riders __falls__ drastically during winter months(Dec-Feb) to only about __20%__ of total riders.
+* The proportion of casual riders goes __maximum__ in the months of June, July, August and September to upto __40%__ of total riders.  
 
 
 ## Conclusion and Recommendations
