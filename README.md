@@ -48,10 +48,10 @@ How do annual members and casual riders use Cyclistic bikes differently ?
 ## Analysis and Viz
 
 The final dataset containing trip data of roughly 3.4 million ride records was analyzed. 
-Visualizations were made to observe differential trends between the usage by casual riders and annual members.  
+Visualizations were developed in Google Data Studio to observe differential trends between the usage by casual riders and annual members.  
 
 
-> ### Total ride share
+### Total ride share
 ![piechart](viz/pie_chart.PNG)
 #### **Insights**
 * 58.6% of total rides (3.4M) were taken by annual members.
@@ -59,41 +59,48 @@ Visualizations were made to observe differential trends between the usage by cas
 * Annual members form the majority of business for the company and maximizing on this number should be the focus in the long run.
 
 
-> ### Weekly distribution of number of rides
+### Weekly distribution of number of rides
 ![line_chart_1](viz/line_chart_1.PNG)
 #### **Insights**
-* Clearly, the rides taken by casual riders peak throughout Friday, Saturday and Sunday as compared to that of annual members which remains relatively flat. 
-* About 50% less casual riders use the rentals during weekdays as compared to weekends.  
-* This indicates that casual riders use the bike rentals for leisure purposes and not for commuting. 
+* Clearly, the rides taken by casual riders __peak__ throughout the __weekend__ as compared to that of annual members which remains relatively flat. 
+* About __50% less__ casual riders use the rentals during weekdays as compared to weekends.  
+* This indicates that casual riders use the bike rentals for leisure purposes and not for commuting.     
 
-> ### Weekly distribution of average ride duration
+
+### Weekly distribution of average ride duration
 ![line_chart_2](viz/line_chart_2.PNG)
 #### **Insights**
-* The average ride duration of casual members is 2-3 times that of annual members.
+* The average ride duration of casual members is  about __3 times__ that of annual members.
 * The average ride duration both type of riders increase on weekends.
-* Again, this indicates that casual riders use the bike rentals for leisure purposes.
+* Again, this indicates that casual riders use the bike rentals for leisure purposes.  
 
 
-> ### Ride duration vs Ride distance
+### Ride duration vs Ride distance
 ![bars](viz/bars_dist_duration.PNG)
 #### **Insights**
 * The plots clearly show the contrast between average ride duration and average ride distance  for both user types. 
-* While both user types ride a similar average distance, casual riders ride for 3x longer duration as compared to annual members.   
+* While both user types ride a __similar average distance__, casual riders ride for __3x longer duration__ as compared to annual members.     
 
-> ### Hourly distribution of number of rides
+
+### Hourly distribution of number of rides
 ![bar_hour](viz/bar_hour.PNG)
 #### **Insights**
-* The proportion of casual riders increases in the non-commuting hours ie in forenoon hours and after 8pm from 0.25x of total rides to 1.5x of total rides.
-* Annual members take the major chunk of the rides during peak-travel hours in the morning and evening by upto 4x of casual members. 
-* Again, this indicates that casual riders use the bike rentals for leisure purposes while annual members use it for commuting.
+* The proportion of casual riders increases in the non-commuting hours ie in forenoon hours and after 8pm from __0.25x__ of total rides to __1.5x__ of total rides.
+* Annual members take the major chunk of the rides during peak-travel hours in the morning and evening by upto __4x__ of casual members. 
+* Again, this indicates that casual riders use the bike rentals for leisure purposes while annual members use it for commuting.  
 
 
-> ### Monthly distribution of number of rides - Seasonality 
+### Monthly distribution of number of rides - Seasonality 
 ![bar_season](viz/bar_season.PNG)
 #### **Insights**
-* The proportion of casual riders falls drastically during winter months(Dec-Feb) to only about 1/4th of total rides.
-* The proportion of casual riders goes maximum in the months of June, July, August and September to upto half of total rides.
+* The proportion of casual riders __falls__ drastically during winter months(Dec-Feb) to only about __1/4th__ of total rides.
+* The proportion of casual riders goes __maximum__ in the months of June, July, August and September to upto __half__ of total rides.  
 
 
+## Conclusion and Recommendations
 
-## Conclusion
+* A common observation is that __casual riders__ are using the bike rentals for __leisure and tourism__ purposes while __annual members__ use it predominantly for __commuting__ purposes.
+* Targetted on-ground marketing strategies should be devised at places of leisure like parks, theatres, restaurants and cafes.  
+* Discounting campaigns for casual riders on weekdays can motivate them to use the service for commuting. 
+* Tools like push notifications can be used to attract casual riders during the lean periods of the day.
+* A campaign for the winter months, maybe clubbed with holidays or Christmas can help pick up the numbers during those months. 
