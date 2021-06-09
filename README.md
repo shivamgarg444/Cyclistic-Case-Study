@@ -64,38 +64,35 @@ Visualizations were made to observe differential trends between the usage by cas
 #### **Insights**
 * Clearly, the rides taken by casual riders peak throughout Friday, Saturday and Sunday as compared to that of annual members which remains relatively flat. 
 * About 50% less casual riders use the rentals during weekdays as compared to weekends.  
-* This indicates that casual riders use the bike rentals for leisure purposes while annual members use it for commuting. 
+* This indicates that casual riders use the bike rentals for leisure purposes and not for commuting. 
 
 > ### Weekly distribution of average ride duration
 ![line_chart_2](viz/line_chart_2.PNG)
 #### **Insights**
-* 
-*
-*
+* The average ride duration of casual members is 2-3 times that of annual members.
+* The average ride duration both type of riders increase on weekends.
+* Again, this indicates that casual riders use the bike rentals for leisure purposes.
 
 
-> ### Bar Graph :
+> ### Ride duration vs Ride distance
 ![bars](viz/bars_dist_duration.PNG)
 #### **Insights**
-*
-*
-*
+* The plots clearly show the contrast between average ride duration and average ride distance  for both user types. 
+* While both user types ride a similar average distance, casual riders ride for 3x longer duration as compared to annual members.   
 
-
-> ### Bar Graph :
+> ### Hourly distribution of number of rides
 ![bar_hour](viz/bar_hour.PNG)
 #### **Insights**
-*
-*
-*
+* The proportion of casual riders increases in the non-commuting hours ie in forenoon hours and after 8pm from 0.25x of total rides to 1.5x of total rides.
+* Annual members take the major chunk of the rides during peak-travel hours in the morning and evening by upto 4x of casual members. 
+* Again, this indicates that casual riders use the bike rentals for leisure purposes while annual members use it for commuting.
 
 
-> ### Bar Graph :
+> ### Monthly distribution of number of rides - Seasonality 
 ![bar_season](viz/bar_season.PNG)
 #### **Insights**
-*
-*
-*
+* The proportion of casual riders falls drastically during winter months(Dec-Feb) to only about 1/4th of total rides.
+* The proportion of casual riders goes maximum in the months of June, July, August and September to upto half of total rides.
 
 
 
